@@ -11,7 +11,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name='madeira_postgres',
-    version=madeira.__version__,
+    version=madeira_postgres.__version__,
     description='PostgreSQL operation wrappers tied in to AWS Secrets Manager via madeira',
     long_description=README,
     long_description_content_type="text/markdown",
